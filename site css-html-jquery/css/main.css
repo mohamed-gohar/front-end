@@ -31,7 +31,7 @@ body {
 
 /* start header */
 .header {
-  background: url(/images/header_stock.png) fixed;
+  background: url(../images/header_stock.png) fixed;
   background-size: cover;
   color: rgba(255, 255, 255, 0.712);
   position: relative;
@@ -110,6 +110,25 @@ body {
 
 /* start header */
 
+/* start scroll to top */
+.fa-chevron-up {
+  position: fixed;
+  bottom: 35px;
+  right: 60px;
+  cursor: pointer;
+  background: #f7600f;
+  color: rgba(255, 255, 255, 0.7);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  display: none;
+}
+.fa-chevron-up:hover {
+  background: #f86d23;
+}
+/* end scroll to top */
+
 /* start feature */
 .hire {
   padding-top: 60px;
@@ -145,7 +164,7 @@ body {
 /* start sub */
 .sub {
   margin-top: 60px;
-  background: url(/images/subscribe.png) fixed;
+  background: url(../images/subscribe.png) fixed;
   background-size: cover;
 }
 .sub form {
@@ -277,7 +296,7 @@ body {
 /* start testimonial */
 .testi {
   margin-top: 70px;
-  background: url(/images/testimonials.png) fixed;
+  background: url(../images/testimonials.png) fixed;
   background-size: cover;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -406,7 +425,7 @@ body {
 /* start contact */
 .contact {
   margin-top: 70px;
-  background: url(/images/city.png) fixed;
+  background: url(../images/city.png) fixed;
   background-size: cover;
   color: rgba(255, 255, 255, 0.7);
 }

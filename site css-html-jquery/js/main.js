@@ -18,6 +18,23 @@ $(function () {
     mousescrollstep: 20,
   });
 
+  //scroll to top
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 400) {
+      $(".fa-chevron-up").fadeIn(500);
+    } else {
+      $(".fa-chevron-up").fadeOut(500);
+    }
+  });
+  $(".fa-chevron-up").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    );
+  });
+
   //header width
   $(".header").height($(window).height());
 
