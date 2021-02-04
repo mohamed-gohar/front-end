@@ -1,0 +1,9 @@
+.footer {
+  background: $b-color;
+  color: $w-color;
+  text-align: center;
+  span {
+    display: inline-block;
+    padding: 15px 0;
+  }
+}

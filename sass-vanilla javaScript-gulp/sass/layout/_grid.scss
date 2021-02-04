@@ -1,0 +1,21 @@
+/*start grid*/
+// container
+.container {
+  width: 100%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media ($min-sm) {
+    width: 540px;
+  }
+  @media ($min-md) {
+    width: 720px;
+  }
+  @media ($min-lg) {
+    width: 960px;
+  }
+  @media ($min-xl) {
+    width: 1140px;
+  }
+}
+/*end grid*/
